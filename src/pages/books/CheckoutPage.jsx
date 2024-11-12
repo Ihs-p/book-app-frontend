@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import { useForm } from 'react-hook-form';
-import { useAuth } from "../../context/authContext";
+import { useAuth } from "../../context/AuthContext";
 import { useCreateOrderMutation } from "../../redux/feature/orders/ordersApi";
 import Swal from "sweetalert2";
 
